@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="result">
+                <input type="text" id="result" autofocus value="">
+            </div>
+            <div class="opr">
+                <table>
+                    <tr>
+                        <td onclick="getValue(this)">7</td>
+                        <td onclick="getValue(this)">8</td>
+                        <td onclick="getValue(this)">9</td>
+                        <td onclick="getValue(this)" class="operators">/</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getValue(this)">4</td>
+                        <td onclick="getValue(this)">5</td>
+                        <td onclick="getValue(this)">6</td>
+                        <td onclick="getValue(this)" class="operators">*</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getValue(this)">1</td>
+                        <td onclick="getValue(this)">2</td>
+                        <td onclick="getValue(this)">3</td>
+                        <td onclick="getValue(this)" class="operators">-</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getValue(this)">.</td>
+                        <td onclick="getValue(this)">0</td>
+                        <td onclick="getValue(this)" class="operators">+</td>
+                        <td onclick="clearVal()">C</td>
+                    </tr> 
+                    <tr>
+                        <td onclick="getResult()" colspan="3" class="green">=</td>
+                        <td onclick="allClear()" class="red">AC</td>
+                    </tr>                 
+                </table>
+            </div>            
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>

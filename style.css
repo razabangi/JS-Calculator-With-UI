@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.calc{
+    max-width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: -1px 6px 13px 1px rgba(0,0,0,0.57);
+    -webkit-box-shadow: -1px 6px 13px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: -1px 6px 13px 1px rgba(0,0,0,0.57);
+}
+
+.calc input{
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(240,243,244,1) 0%, rgba(214,212,208,1) 100%);
+    color: black;
+    margin-top: 10px;
+}
+
+.opr{
+    padding: 20px;
+}
+
+table{
+    color: black;
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+table td{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(240,243,244);
+    background: linear-gradient(0deg, rgba(240,243,244,1) 0%, rgba(214,212,208,1) 100%);
+}
+
+table td:hover{
+    background: rgb(240,243,244);
+    background: linear-gradient rgba(214,212,208,1) 100%, (0deg, rgba(240,243,244,1) 0%);
+}
+
+.red{
+    background: rgb(156,34,20);
+    background: linear-gradient(0deg, rgba(156,34,20,1) 0%, rgba(101,9,0,1) 100%);
+}
+
+.red:hover{
+    background: rgb(156,34,20);
+    background: linear-gradient rgba(101,9,0,1) 100%, (0deg, rgba(156,34,20,1) 0%);
+}
+
+.green{
+    background: rgb(68,222,68);
+    background: linear-gradient(0deg, rgba(68,222,68,1) 0%, rgba(29,106,43,1) 100%);
+}
+
+.green:hover{
+    background: rgb(68,222,68);
+    background: linear-gradient rgba(29,106,43,1) 100%, (0deg, rgba(68,222,68,1) 0%);
+}
